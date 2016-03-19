@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Address Book Deitel</string>
+    <string name="label_name">Nama:</string>
+    <string name="label_phone">Telefon:</string>
+    <string name="label_email">Emel:</string>
+    <string name="label_street">Jalan:</string>
+    <string name="label_city">Bandar:</string>
+    <string name="label_address">Alamat</string>
+    <string name="label_save_contact">Simpan</string>
+    <string name="menuitem_add_contact">Tambah kenalan</string>
+    <string name="menuitem_edit_contact">Edit kenalan</string>
+    <string name="menuitem_delete_contact">Padam kenalan</string>
+    <string name="errorTitle">Ralat</string>
+    <string name="errorMessage">Tidak dapat simpan.</string>
+    <string name="errorButton">OK</string>
+    <string name="hint_name">Masukkan nama</string>
+    <string name="hint_phone">Masukkan nombor tel</string>
+    <string name="hint_street">Nama jalan</string>
+    <string name="hint_city">Nama bandar</string>
+</resources>
