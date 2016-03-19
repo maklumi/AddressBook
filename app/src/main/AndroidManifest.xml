@@ -17,9 +17,12 @@
         </activity>
         <activity android:name=".AddEditContact"/>
         <activity android:name=".ViewContact"/>
+        <activity android:name=".DeviceChooser"/>
     </application>
     
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
     
 
 </manifest>

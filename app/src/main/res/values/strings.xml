@@ -17,4 +17,24 @@
     <string name="hint_phone">Masukkan nombor tel</string>
     <string name="hint_street">Nama jalan</string>
     <string name="hint_city">Nama bandar</string>
+    <string name="menuitem_receive_contact">Terima bluetooth</string>
+    <string name="title_other_devices">Peranti ditemui</string>
+    <string name="button_scan">Scan</string>
+    <string name="no_bluetooth">Tiada peranti ditemui.</string>
+    <string name="bluetooth_enabled">Bluetooth on</string>
+    <string name="no_discoverability">Tidak ditemui</string>
+    <string name="waiting_contact">menunggu..</string>
+    <string name="contact_not_received">Kenalan tak diterima</string>
+    <string name="contact_received">Kenalan diterima</string>
+    <string name="connection_error">Error sambungan</string>
+    <string name="sending_contact">Menghantar kenalan</string>
+    <string name="contact_sent">Kenalan dihantar</string>
+    <string name="transfer_failed">Gagal menghantar</string>
+    <string name="menuitem_transfer_contact">Bluetooth kenalan</string>
+    <string name="button_cancel">Kensel</string>
+    <string name="button_delete">Padam</string>
+    <string name="confirmTitle">Padam kenalan ini</string>
+    <string name="confirmMessage">Akan memadam kenalan ini.</string>
+    <string name="no_devices">Tiada peranti</string>
+    <string name="choose_device">Pilih peranti</string>
 </resources>
