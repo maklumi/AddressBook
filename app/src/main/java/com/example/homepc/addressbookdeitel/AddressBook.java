@@ -6,6 +6,9 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -15,7 +18,7 @@ import android.widget.CursorAdapter;
 import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
 
-public class AddressBook extends ListActivity {
+public class AddressBook extends AppCompatActivity {
 
     public static final String ROW_ID = "row_id";
     private ListView contactListView;
@@ -24,14 +27,21 @@ public class AddressBook extends ListActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        contactListView = getListView();
+        setContentView(R.layout.activity_address_book);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.activity_addressbook_toolbar);
+        setSupportActionBar(toolbar);
+
+        // contactListView = getListView();
+        contactListView = (ListView) findViewById(R.id.listview);
         contactListView.setOnItemClickListener(viewContactListener);
 
         String[] from = new String[] {"name"};
         int[] to = new int[] {R.id.contactTextView};
         contactAdapter = new SimpleCursorAdapter(
                 AddressBook.this, R.layout.contact_list_item, null, from, to, 1);
-        setListAdapter(contactAdapter);
+        contactListView.setAdapter(contactAdapter);
+        //   setListAdapter(contactAdapter);
+
     }
 
     @Override
